@@ -46,6 +46,8 @@
                 </div>
                
                 <button type="button" class="btn btn-info mt-5" data-bs-toggle="modal" data-bs-target="#myModal">Bootstrap 功能 test</button>
+                <a class="btn btn-info mt-5 ms-3" href="{{ url('layout') }}">layout 頁</a>
+              
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModal" aria-hidden="true">
                     <div class="modal-dialog">

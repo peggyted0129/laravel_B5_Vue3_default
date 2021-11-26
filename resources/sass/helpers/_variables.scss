@@ -50,6 +50,7 @@ $theme:   rgb(247, 216, 164) !default;
 $topic:   #491e0a !default;
 $streak:  #e4cdc2 !default;
 $hgray:   #707070 !default;
+$lgray:   #e9ecef !default;
 $coffee:  #af7e5b !default; 
 $glass:   #f7c51e !default;
 $milk:    #fff9eb !default;
@@ -74,11 +75,12 @@ $colors: (
   "topic":      $topic,
   "streak":     $streak,
   "hgray":      $hgray,
+  "lgray":      $lgray,
   "coffee":     $coffee,
   "glass":      $glass,
   "milk":       $milk,
 ) !default;
-// scss-docs-end colors-map
+// scss-docs-end colors-map   
 
 // scss-docs-start theme-color-variables
 $primary:       $blue !default;
@@ -93,6 +95,7 @@ $theme:         $theme !default;
 $topic:         $topic !default;
 $streak:        $streak !default;
 $hgray:         $hgray !default;
+$lgray:         $lgray !default;
 $coffee:        $coffee !default;
 $glass:         $glass !default;
 $milk:          $milk !default;
@@ -112,6 +115,7 @@ $theme-colors: (
   "topic":      $topic,
   "streak":     $streak,
   "hgray":      $hgray,
+  "lgray":      $lgray,
   "coffee":     $coffee,
   "glass":      $glass,
   "milk":       $milk,
@@ -649,6 +653,7 @@ $h3-font-size:                $font-size-base * 1.75 !default;
 $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
+$h7-font-size:                $font-size-base * .875 !default;
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -658,7 +663,8 @@ $font-sizes: (
   3: $h3-font-size,
   4: $h4-font-size,
   5: $h5-font-size,
-  6: $h6-font-size
+  6: $h6-font-size,
+  7: $h7-font-size
 ) !default;
 // scss-docs-end font-sizes
 
