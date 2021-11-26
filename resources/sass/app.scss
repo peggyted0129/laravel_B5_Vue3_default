@@ -2,11 +2,14 @@
 @import "./helpers/_variables";
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons";
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+// https://fonts.google.com/icons?selected=Material+Icons
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+@import "./base";
+@import "./mixin";
 @import "./datetimepicker"; // 套件
 @import "./sweetalert2";    // 套件
-@import "./mixin";
-@import "./base";
